@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js"
+        integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
+        crossorigin="anonymous"></script>
+
+
+
+
+
+
+        
+    <style>
+        @media screen and (min-width: 0px) {
+            #infohead {
+                font-size: 1em;
+            }
+            .blog img{
+                width: 100%;
+            }
+
+            .blog .col-sm-6 {
+
+                width: 100%;
+                float: left;
+                position: relative;
+                min-height: 1px;
+                padding-right: 15px;
+                padding-left: 15px;
+              
+            }
+
+            .menu .col-sm-6{
+    width: 50%;
+}
+.one-serv{
+       
+       color: #fff;
+   background-color: #337ab7;
+   border-top-left-radius: 0px;
+   border-bottom-left-radius: 0px;
+
+   }
+   .two-serv {
+       
+       background: #c42d48;
+       color: white;
+   }
+   .three-serv {
+      
+       background: #c1733c;
+       color: white;
+       border-top-right-radius: 0px;
+       border-bottom-right-radius: 0px;
+   }
+
+        }
+
+
+        @media screen and (min-width: 480px ){
+
+            .one-serv{
+       
+       color: #fff;
+   background-color: #337ab7;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+
+   }
+   .two-serv {
+       
+       background: #c42d48;
+       color: white;
+   }
+   .three-serv {
+      
+       background: #c1733c;
+       color: white;
+       border-top-right-radius: 20px;
+       border-bottom-right-radius: 20px;
+   }
+
+
+
+
+            .blog .col-sm-6 {
+
+               width: 100%;
+                float: left;
+                position: relative;
+                min-height: 1px;
+                padding-right: 15px;
+                padding-left: 15px;
+               
+
+            }
+
+            
+            
+
+            #infohead {
+                font-size: 2em;
+            }
+            .menu .col-sm-6{
+    width: 50%;
+}
+
+        }
+
+
+
+
+
+        @media screen and (min-width: 720px) {
+
+            #infohead {
+                font-size: 3em;
+            }
+            .blog .col-sm-6 {
+
+width: 50%;
+                    float: left;
+                     position: relative;
+                     min-height: 1px;
+                     padding-right: 15px;
+                     padding-left: 15px;
+
+            }
+            .menu .col-sm-6{
+    width: 50%;
+}
+           
+        }
+
+        @media screen and (min-width: 1024px) {
+
+            #infohead {
+                font-size: 5em;
+            }
+
+
+           
+
+        }
+
+
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+    <div class="home pt-0">
+        <header>
+            
+                <nav class="navbar  navbar-expand-lg  navbar-light">
+                    <div class="container-fluid">
+                        <a href="#" class="navbar-brand"><img src="logo.png"></a>
+
+
+
+                        <button class="navbar-toggler "  type="button"  data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class=" navbar-collapse collapse" id="navbarCollapse">
+                            <div class="navbar-nav ms-auto">
+                                <a href="#" class="nav-item nav-link "  >Home</a>
+                                <a href="#" class="nav-item nav-link ">Services</a>
+                                <a href="#" class="nav-item nav-link ">Blogs</a>
+                                <a href="#" class="nav-item nav-link">Menus</a>
+                                <a href="#" class="nav-item nav-link">About us </a>
+                                <a href="#" class="nav-item nav-link">Contact Us</a>
+
+                               
+                            </div>
+                           
+                        </div>
+                    </div>
+                </nav>
+          
+
+            <div class="con-container">
+                <div class="info" id="info">
+                    <h1 id="infohead">Welcome To Food Factory</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae illo placeat ut aut soluta
+                    </p>
+                    <div class="row">
+
+                        <div class="btn-group">
+
+                            <button class="btn left " id="btn1">Sign up</button>
+
+                            <button class="btn right" id="btn2">Contact us</button>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </header>
+
+    </div>
+
+    <div class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <center>
+                <hr class="bdr">
+            </center>
+            <div class="row">
+                <div class="col-md-4 one-serv bg-primary">
+                    <i class="fa fa-utensils fa-5x"></i>
+                    <h2>Pizza</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lobortis nunc urna, et
+                        posuere elit sollicitudin at. Vivamus vel blandit tortor, in ultrices mi. Sed quis sem bibendum,
+                        scelerisque enim eget, pulvinar ligula. Aenean aliquet.
+
+
+
+                    </p>
+
+
+                </div>
+                <div class="col-md-4 two-serv">
+                    <i class="fa fa-utensils fa-5x"></i>
+                    <h2>Pizza</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lobortis nunc urna, et
+                        posuere elit sollicitudin at. Vivamus vel blandit tortor, in ultrices mi. Sed quis sem bibendum,
+                        scelerisque enim eget, pulvinar ligula. Aenean aliquet.
+
+
+
+                    </p>
+                </div>
+                <div class="col-md-4 three-serv">
+                    <i class="fa fa-utensils fa-5x"></i>
+                    <h2>Pizza</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lobortis nunc urna, et
+                        posuere elit sollicitudin at. Vivamus vel blandit tortor, in ultrices mi. Sed quis sem bibendum,
+                        scelerisque enim eget, pulvinar ligula. Aenean aliquet.
+
+
+
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- Services Ends-->
+    <div class="blog">
+
+        <div class="container">
+            <h2>Blog</h2>
+            <hr class="bdr">
+            <div class="row">
+
+
+                <div class="col-md-6  blog-area">
+
+                    <div class="col-sm-6">
+                        <img class="img" src="menu1.jpg" alt="">
+                    </div>
+                    <div class="col-sm-6">
+                        <h3><a href="">Blog Title</a></h3>
+                        <div class="date"><i class="fa fa-clock"></i> 23-January-2018</div>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lobortis nunc urna, et
+                            posuere elit sollicitudin at. Vivamus vel blandit tortor, in ultrices mi. Sed quis sem
+                            bibendum, scelerisque enim eget...
+                        </p>
+
+                    </div>
+
+                </div>
+                <div class="col-md-6  blog-area s-blog">
+                    <div class="col-sm-6">
+                        <img class="img" src="menu2.jpg" alt="">
+                    </div>
+                    <div class="col-sm-6">
+                        <h3><a href="">Blog Title</a></h3>
+                        <div class="date"><i class="fa fa-clock"></i> 23-January-2018</div>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lobortis nunc urna, et
+                            posuere elit sollicitudin at. Vivamus vel blandit tortor, in ultrices mi. Sed quis sem
+                            bibendum, scelerisque enim eget...
+                        </p>
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+            <br>
+            <div class="row">
+
+
+                <div class="col-md-6  blog-area">
+
+                    <div class="col-sm-6">
+                        <img class="img" src="menu3.jpg" alt="">
+                    </div>
+                    <div class="col-sm-6">
+                        <h3><a href="">Blog Title</a></h3>
+                        <div class="date"><i class="fa fa-clock"></i> 23-January-2018</div>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lobortis nunc urna, et
+                            posuere elit sollicitudin at. Vivamus vel blandit tortor, in ultrices mi. Sed quis sem
+                            bibendum, scelerisque enim eget...
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-md-6  blog-area s-blog">
+                    <div class="col-sm-6">
+                        <img class="img" src="menu4.jpg" alt="">
+                    </div>
+                    <div class="col-sm-6">
+                        <h3><a href="">Blog Title</a></h3>
+                        <div class="date"><i class="fa fa-clock"></i> 23-January-2018</div>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lobortis nunc urna, et
+                            posuere elit sollicitudin at. Vivamus vel blandit tortor, in ultrices mi. Sed quis sem
+                            bibendum, scelerisque enim eget...
+                        </p>
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <div class="menu">
+        <div class="container">
+            <h2>List Menus</h2>
+            <hr>
+
+            <div class="row">
+
+                <div class="col-md-3 menu-area">
+                    <img src="menu1.jpg" alt="">
+                    <hr>
+                    <h3>Buy Food</h3>
+                    <hr>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lobortis nunc urna, et
+                        posuere elit sollicitudin at. Vivamus vel blandit tortor, in ultrices mi. Sed quis sem bibendum,
+                        scelerisque enim eget...</p>
+                    <hr>
+                    <div class="row">
+                        <div class="col-sm-6 price">
+                            <b>Price : $800</b>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="submit" class="btn" value="Buy Now">
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+                <!--Menu Area End-->
+
+                <div class="col-md-3 menu-area">
+                    <img src="menu2.jpg" alt="">
+                    <hr>
+                    <h3>Buy Food</h3>
+                    <hr>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lobortis nunc urna, et
+                        posuere elit sollicitudin at. Vivamus vel blandit tortor, in ultrices mi. Sed quis sem bibendum,
+                        scelerisque enim eget...</p>
+                    <hr>
+                    <div class="row">
+                        <div class="col-sm-6 price">
+                            <b>Price : $800</b>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="submit" class="btn" value="Buy Now">
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+                <div class="col-md-3 menu-area">
+                    <img src="menu3.jpg" alt="">
+                    <hr>
+                    <h3>Buy Food</h3>
+                    <hr>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lobortis nunc urna, et
+                        posuere elit sollicitudin at. Vivamus vel blandit tortor, in ultrices mi. Sed quis sem bibendum,
+                        scelerisque enim eget...</p>
+                    <hr>
+                    <div class="row">
+                        <div class="col-sm-6 price">
+                            <b>Price : $800</b>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="submit" class="btn" value="Buy Now">
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="col-md-3 menu-area">
+                    <img src="menu4.jpg" alt="">
+                    <hr>
+                    <h3>Buy Food</h3>
+                    <hr>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lobortis nunc urna, et
+                        posuere elit sollicitudin at. Vivamus vel blandit tortor, in ultrices mi. Sed quis sem bibendum,
+                        scelerisque enim eget...</p>
+                    <hr>
+                    <div class="row">
+                        <div class="col-sm-6 price">
+                            <b>Price : $800</b>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="submit" class="btn" value="Buy Now">
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <hr class="bdr">
+            <form action="">
+                <div class="row">
+                    <div class="col-md-4">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" placeholder="Your Name..">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="name">Email:</label>
+
+                        <input type="text" class="form-control" placeholder="Your Email..">
+
+                    </div>
+                    <div class="col-md-4">
+                        <label for="name">Phone Number:</label>
+
+                        <input type="text" class="form-control" placeholder="Your Phone Number..">
+
+                    </div>
+
+                </div>
+                <br>
+                <label for="msg">Message:</label>
+                <textarea class="form-control" name="text" id="" cols="30" rows="10"
+                    placeholder="Your Message.."></textarea><br>
+                <input type="submit" class="btn">
+
+
+
+            </form>
+
+
+
+
+        </div>
+    </div>
+    <div class="footer">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h3>Food Factory</h3>
+                        <hr class="bdr">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl enim, rutrum
+                            ac libero
+                            at,
+                            volutpat dapibus augue. Duis et lorem vestibulum purus posuere fringilla ut ut
+                            ligula. Sed
+                            elementum justo nisi, sit amet pretium ipsum pretium interdum.</p>
+
+
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Subscribe Us</h3>
+                        <hr class="bdr">
+                        <input type="text" class="form-control" placeholder="Your Email.."><br>
+                        <input type="submit" class="btn">
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Contact Info</h3>
+                        <hr class="bdr">
+                        <p>My Street, NY 10036, United States</p>
+                        <hr class="bdr">
+                        <p>Phone : +9218237483</p>
+                        <hr class="bdr">
+                        <p>Email : Email@gmail.com</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Google Map</h3>
+                        <hr class="bdr">
+                        <div style="width: 100%"><iframe width="100%" height="auto"
+                                src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=Your%20Address+(Food%20Factory)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
+                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a
+                                    href="https://www.maps.ie/create-google-map/">Google Maps iframe
+                                    generator</a></iframe>
+                        </div><br />
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+        </footer>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+   
+</body>
+
+</html>
